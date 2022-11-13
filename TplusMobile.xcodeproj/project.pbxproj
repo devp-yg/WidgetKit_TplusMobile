@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F8CFA76291EB9020011AF2C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA75291EB9020011AF2C /* AppDelegate.swift */; };
+		4F8CFA78291EB9020011AF2C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA77291EB9020011AF2C /* SceneDelegate.swift */; };
+		4F8CFA7A291EB9020011AF2C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA79291EB9020011AF2C /* ViewController.swift */; };
+		4F8CFA7D291EB9020011AF2C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8CFA7B291EB9020011AF2C /* Main.storyboard */; };
+		4F8CFA7F291EB9030011AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8CFA7E291EB9030011AF2C /* Assets.xcassets */; };
+		4F8CFA82291EB9030011AF2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F8CFA80291EB9030011AF2C /* LaunchScreen.storyboard */; };
+		4F8CFA90291EB9910011AF2C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8CFA8F291EB9900011AF2C /* WidgetKit.framework */; };
+		4F8CFA92291EB9910011AF2C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8CFA91291EB9910011AF2C /* SwiftUI.framework */; };
+		4F8CFA95291EB9910011AF2C /* AmountUsedBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA94291EB9910011AF2C /* AmountUsedBundle.swift */; };
+		4F8CFA99291EB9910011AF2C /* AmountUsed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA98291EB9910011AF2C /* AmountUsed.swift */; };
+		4F8CFA9C291EB99D0011AF2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F8CFA9B291EB99D0011AF2C /* Assets.xcassets */; };
+		4F8CFA9E291EB99D0011AF2C /* AmountUsed.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA9A291EB9920011AF2C /* AmountUsed.intentdefinition */; };
+		4F8CFA9F291EB99D0011AF2C /* AmountUsed.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 4F8CFA9A291EB9920011AF2C /* AmountUsed.intentdefinition */; };
+		4F8CFAA2291EB99D0011AF2C /* AmountUsedExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 4F8CFA8D291EB9900011AF2C /* AmountUsedExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7B0B5AF672ECFC8059F4DE70 /* Pods_AmountUsedExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CC8F4020ABD6D34B1C2F40 /* Pods_AmountUsedExtension.framework */; };
+		F7D5A4ED30C7C5A0B341578A /* Pods_TplusMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 06E308A48A8904032A74659A /* Pods_TplusMobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F8CFAA0291EB99D0011AF2C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F8CFA6A291EB9020011AF2C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F8CFA8C291EB9900011AF2C;
+			remoteInfo = AmountUsedExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4F8CFAA6291EB99D0011AF2C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4F8CFAA2291EB99D0011AF2C /* AmountUsedExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		06E308A48A8904032A74659A /* Pods_TplusMobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TplusMobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D26985CAEE8EE4BDB05577D /* Pods-TplusMobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TplusMobile.debug.xcconfig"; path = "Target Support Files/Pods-TplusMobile/Pods-TplusMobile.debug.xcconfig"; sourceTree = "<group>"; };
+		1CFB3458F1196F574D0FBE87 /* Pods-AmountUsedExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmountUsedExtension.debug.xcconfig"; path = "Target Support Files/Pods-AmountUsedExtension/Pods-AmountUsedExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		22CC8F4020ABD6D34B1C2F40 /* Pods_AmountUsedExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AmountUsedExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276946F771B48B169448090E /* Pods-TplusMobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TplusMobile.release.xcconfig"; path = "Target Support Files/Pods-TplusMobile/Pods-TplusMobile.release.xcconfig"; sourceTree = "<group>"; };
+		4F6246ED291EE1CE0029CC6C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F6246F1291EE1E80029CC6C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8CFA72291EB9020011AF2C /* TplusMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TplusMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8CFA75291EB9020011AF2C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4F8CFA77291EB9020011AF2C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4F8CFA79291EB9020011AF2C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4F8CFA7C291EB9020011AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4F8CFA7E291EB9030011AF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8CFA81291EB9030011AF2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4F8CFA83291EB9030011AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8CFA8D291EB9900011AF2C /* AmountUsedExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = AmountUsedExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F8CFA8F291EB9900011AF2C /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		4F8CFA91291EB9910011AF2C /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		4F8CFA94291EB9910011AF2C /* AmountUsedBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountUsedBundle.swift; sourceTree = "<group>"; };
+		4F8CFA98291EB9910011AF2C /* AmountUsed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmountUsed.swift; sourceTree = "<group>"; };
+		4F8CFA9A291EB9920011AF2C /* AmountUsed.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = AmountUsed.intentdefinition; sourceTree = "<group>"; };
+		4F8CFA9B291EB99D0011AF2C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F8CFA9D291EB99D0011AF2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F8CFAA7291EC0EC0011AF2C /* TplusMobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TplusMobile.entitlements; sourceTree = "<group>"; };
+		4F8CFAA8291EC1170011AF2C /* AmountUsedExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AmountUsedExtension.entitlements; sourceTree = "<group>"; };
+		5E818C52AFE4C57938791E97 /* Pods-AmountUsedExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AmountUsedExtension.release.xcconfig"; path = "Target Support Files/Pods-AmountUsedExtension/Pods-AmountUsedExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F8CFA6F291EB9020011AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7D5A4ED30C7C5A0B341578A /* Pods_TplusMobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8CFA8A291EB9900011AF2C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8CFA92291EB9910011AF2C /* SwiftUI.framework in Frameworks */,
+				4F8CFA90291EB9910011AF2C /* WidgetKit.framework in Frameworks */,
+				7B0B5AF672ECFC8059F4DE70 /* Pods_AmountUsedExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F8CFA69291EB9020011AF2C = {
+			isa = PBXGroup;
+			children = (
+				4F8CFAA8291EC1170011AF2C /* AmountUsedExtension.entitlements */,
+				4F8CFA74291EB9020011AF2C /* TplusMobile */,
+				4F8CFA93291EB9910011AF2C /* AmountUsed */,
+				4F8CFA8E291EB9900011AF2C /* Frameworks */,
+				4F8CFA73291EB9020011AF2C /* Products */,
+				DE521620604D5BA18FED5545 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4F8CFA73291EB9020011AF2C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F8CFA72291EB9020011AF2C /* TplusMobile.app */,
+				4F8CFA8D291EB9900011AF2C /* AmountUsedExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F8CFA74291EB9020011AF2C /* TplusMobile */ = {
+			isa = PBXGroup;
+			children = (
+				4F8CFAA7291EC0EC0011AF2C /* TplusMobile.entitlements */,
+				4F8CFA75291EB9020011AF2C /* AppDelegate.swift */,
+				4F8CFA77291EB9020011AF2C /* SceneDelegate.swift */,
+				4F8CFA79291EB9020011AF2C /* ViewController.swift */,
+				4F8CFA80291EB9030011AF2C /* LaunchScreen.storyboard */,
+				4F8CFA7B291EB9020011AF2C /* Main.storyboard */,
+				4F8CFA7E291EB9030011AF2C /* Assets.xcassets */,
+				4F8CFA83291EB9030011AF2C /* Info.plist */,
+			);
+			path = TplusMobile;
+			sourceTree = "<group>";
+		};
+		4F8CFA8E291EB9900011AF2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F6246F1291EE1E80029CC6C /* Alamofire.framework */,
+				4F6246ED291EE1CE0029CC6C /* Alamofire.framework */,
+				4F8CFA8F291EB9900011AF2C /* WidgetKit.framework */,
+				4F8CFA91291EB9910011AF2C /* SwiftUI.framework */,
+				06E308A48A8904032A74659A /* Pods_TplusMobile.framework */,
+				22CC8F4020ABD6D34B1C2F40 /* Pods_AmountUsedExtension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F8CFA93291EB9910011AF2C /* AmountUsed */ = {
+			isa = PBXGroup;
+			children = (
+				4F8CFA94291EB9910011AF2C /* AmountUsedBundle.swift */,
+				4F8CFA98291EB9910011AF2C /* AmountUsed.swift */,
+				4F8CFA9A291EB9920011AF2C /* AmountUsed.intentdefinition */,
+				4F8CFA9B291EB99D0011AF2C /* Assets.xcassets */,
+				4F8CFA9D291EB99D0011AF2C /* Info.plist */,
+			);
+			path = AmountUsed;
+			sourceTree = "<group>";
+		};
+		DE521620604D5BA18FED5545 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D26985CAEE8EE4BDB05577D /* Pods-TplusMobile.debug.xcconfig */,
+				276946F771B48B169448090E /* Pods-TplusMobile.release.xcconfig */,
+				1CFB3458F1196F574D0FBE87 /* Pods-AmountUsedExtension.debug.xcconfig */,
+				5E818C52AFE4C57938791E97 /* Pods-AmountUsedExtension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F8CFA71291EB9020011AF2C /* TplusMobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8CFA86291EB9030011AF2C /* Build configuration list for PBXNativeTarget "TplusMobile" */;
+			buildPhases = (
+				4157210DC684F7ED6BBDDBEE /* [CP] Check Pods Manifest.lock */,
+				4F8CFA6E291EB9020011AF2C /* Sources */,
+				4F8CFA6F291EB9020011AF2C /* Frameworks */,
+				4F8CFA70291EB9020011AF2C /* Resources */,
+				4F8CFAA6291EB99D0011AF2C /* Embed Foundation Extensions */,
+				0EC15FD47F68C50FFE828A73 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F8CFAA1291EB99D0011AF2C /* PBXTargetDependency */,
+			);
+			name = TplusMobile;
+			productName = TplusMobile;
+			productReference = 4F8CFA72291EB9020011AF2C /* TplusMobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F8CFA8C291EB9900011AF2C /* AmountUsedExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F8CFAA3291EB99D0011AF2C /* Build configuration list for PBXNativeTarget "AmountUsedExtension" */;
+			buildPhases = (
+				DA8F59940F0646EB37B98C48 /* [CP] Check Pods Manifest.lock */,
+				4F8CFA89291EB9900011AF2C /* Sources */,
+				4F8CFA8A291EB9900011AF2C /* Frameworks */,
+				4F8CFA8B291EB9900011AF2C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AmountUsedExtension;
+			productName = AmountUsedExtension;
+			productReference = 4F8CFA8D291EB9900011AF2C /* AmountUsedExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F8CFA6A291EB9020011AF2C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					4F8CFA71291EB9020011AF2C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					4F8CFA8C291EB9900011AF2C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 4F8CFA6D291EB9020011AF2C /* Build configuration list for PBXProject "TplusMobile" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F8CFA69291EB9020011AF2C;
+			productRefGroup = 4F8CFA73291EB9020011AF2C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F8CFA71291EB9020011AF2C /* TplusMobile */,
+				4F8CFA8C291EB9900011AF2C /* AmountUsedExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8CFA70291EB9020011AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8CFA82291EB9030011AF2C /* LaunchScreen.storyboard in Resources */,
+				4F8CFA7F291EB9030011AF2C /* Assets.xcassets in Resources */,
+				4F8CFA7D291EB9020011AF2C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8CFA8B291EB9900011AF2C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8CFA9C291EB99D0011AF2C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EC15FD47F68C50FFE828A73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TplusMobile/Pods-TplusMobile-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TplusMobile/Pods-TplusMobile-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TplusMobile/Pods-TplusMobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4157210DC684F7ED6BBDDBEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TplusMobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA8F59940F0646EB37B98C48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AmountUsedExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F8CFA6E291EB9020011AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8CFA7A291EB9020011AF2C /* ViewController.swift in Sources */,
+				4F8CFA9F291EB99D0011AF2C /* AmountUsed.intentdefinition in Sources */,
+				4F8CFA76291EB9020011AF2C /* AppDelegate.swift in Sources */,
+				4F8CFA78291EB9020011AF2C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F8CFA89291EB9900011AF2C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F8CFA95291EB9910011AF2C /* AmountUsedBundle.swift in Sources */,
+				4F8CFA9E291EB99D0011AF2C /* AmountUsed.intentdefinition in Sources */,
+				4F8CFA99291EB9910011AF2C /* AmountUsed.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F8CFAA1291EB99D0011AF2C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F8CFA8C291EB9900011AF2C /* AmountUsedExtension */;
+			targetProxy = 4F8CFAA0291EB99D0011AF2C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4F8CFA7B291EB9020011AF2C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8CFA7C291EB9020011AF2C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4F8CFA80291EB9030011AF2C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4F8CFA81291EB9030011AF2C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4F8CFA84291EB9030011AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F8CFA85291EB9030011AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4F8CFA87291EB9030011AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D26985CAEE8EE4BDB05577D /* Pods-TplusMobile.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TplusMobile/TplusMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNSH2K59R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TplusMobile/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.tools.TplusMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4F8CFA88291EB9030011AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 276946F771B48B169448090E /* Pods-TplusMobile.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = TplusMobile/TplusMobile.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNSH2K59R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TplusMobile/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.tools.TplusMobile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		4F8CFAA4291EB99D0011AF2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CFB3458F1196F574D0FBE87 /* Pods-AmountUsedExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AmountUsedExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNSH2K59R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmountUsed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AmountUsed;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.tools.TplusMobile.AmountUsed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4F8CFAA5291EB99D0011AF2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E818C52AFE4C57938791E97 /* Pods-AmountUsedExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = AmountUsedExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PNSH2K59R8;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AmountUsed/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = AmountUsed;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = github.tools.TplusMobile.AmountUsed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F8CFA6D291EB9020011AF2C /* Build configuration list for PBXProject "TplusMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8CFA84291EB9030011AF2C /* Debug */,
+				4F8CFA85291EB9030011AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8CFA86291EB9030011AF2C /* Build configuration list for PBXNativeTarget "TplusMobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8CFA87291EB9030011AF2C /* Debug */,
+				4F8CFA88291EB9030011AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F8CFAA3291EB99D0011AF2C /* Build configuration list for PBXNativeTarget "AmountUsedExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F8CFAA4291EB99D0011AF2C /* Debug */,
+				4F8CFAA5291EB99D0011AF2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4F8CFA6A291EB9020011AF2C /* Project object */;
+}
