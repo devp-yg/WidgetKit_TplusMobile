@@ -162,7 +162,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
 }
 
 class Interactor {
-    let loginURL = "https://www.tplusmobile.com/view/mytplus/loginAction.do"
+    let loginURL = ""
     
     func login(id: String, password: String, completion: @escaping (AFDataResponse<String>) -> ()) {
         let parameters = [
