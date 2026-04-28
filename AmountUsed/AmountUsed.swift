@@ -381,8 +381,8 @@ struct AmountUsedEntryView : View {
 }
 
 class Interactor {
-    let loginURL = "https://www.tplusmobile.com/view/mytplus/loginAction.do"
-    let myPageURL = "https://www.tplusmobile.com/view/mytplus/getPrductrecomend.do"
+    let loginURL = ""
+    let myPageURL = ""
     
     func fetchAmountUsed(completion: @escaping (AFDataResponse<String>) -> ()) -> Bool {
         let appGroupId = "group.github.tools.TplusMobile"
